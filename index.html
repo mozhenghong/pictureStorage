@@ -6,16 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pictureStorage</title>
     <link rel="stylesheet" href="./css/1.css">
+    <script src="//at.alicdn.com/t/font_941554_ajn7oq7x5c5.js"></script>
 </head>
 <body>
-    <h1>pictures</h1>
-    <ul class="clearfix">
-        <li><a  onclick="showpic(this);return false" title="a lovely dog" href="https://www.petstation.jp/petpro/file/2012/1/20/4f18fe6238b6f3.13469966.jpg">dog</a></li>
-        <li><a  onclick="showpic(this);return false" title="beautiful flower" href="http://en.bcdn.biz/Images/2018/3/20/9a6379ec-e95e-4685-b523-09725d0508de.jpg">flower</a></li>
-        <li><a  onclick="showpic(this);return false" title="a lovely cat" href="https://plusmagazine.knack.be/medias/14279/7311249.jpg">cat</a></li>
-        <li><a  onclick="showpic(this);return false" title="an angry girl" href="https://cdn-03.independent.ie/incoming/article37259001.ece/a9b90/AUTOCROP/w620/PL36258391Portrait%20of%20a%20ve.jpg">children</a></li>
+    <h1>gollary</h1>
+    <p>please click the icon to switch the picture:</p>
+    <ul class="clearfix" id="gollary">
+        <li>
+            <a title="beautiful flower" href="http://en.bcdn.biz/Images/2018/3/20/9a6379ec-e95e-4685-b523-09725d0508de.jpg">
+                <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-Flower"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a title="a lovely dog" href="https://www.petstation.jp/petpro/file/2012/1/20/4f18fe6238b6f3.13469966.jpg">
+                <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-dog"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a title="a lovely cat" href="https://plusmagazine.knack.be/medias/14279/7311249.jpg">
+                <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-mao"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a title="an angry girl" href="https://cdn-03.independent.ie/incoming/article37259001.ece/a9b90/AUTOCROP/w620/PL36258391Portrait%20of%20a%20ve.jpg">
+                <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-Girl"></use>
+                </svg>
+            </a>
+        </li>
     </ul>
-    <img src="./images/white.png" alt="image" id="placeholder">
+    <img src="http://iph.href.lu/700x410?text=my image gollary" alt="image" id="placeholder">
     <p id="description">chose a picture</p>
     <script src="./main.js"></script>
 </body>
